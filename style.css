@@ -1,0 +1,33 @@
+div {
+  background-color:pink;
+  width:200px;
+  height:200px;
+  -webkit-animation:second-animation 7s ease-in-out infinite;
+}
+
+@-webkit-keyframes my-animation {
+  from {
+    margin: 0;
+  }
+  
+  to {
+    margin-top:200px;
+  }
+}
+
+@-webkit-keyframes second-animation {
+  0% {
+    margin-top:0;
+  }
+ 25% {
+   margin-top:200px;
+   margin-left:100px;
+ } 
+75% {
+  margin-top: 50px;
+}  
+100% {
+  margin-top:0px;
+  margin-left:0px;
+ }  
+}
